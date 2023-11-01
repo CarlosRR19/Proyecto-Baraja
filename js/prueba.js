@@ -7,8 +7,6 @@ partida.selecciona();
 console.log(partida);
 partida.baraja();
 partida.reparte();
-partida.voltea(1,1);
-partida.compruebaAcierto(1,0);
 console.log(partida);
 
 partida.getMazo();
