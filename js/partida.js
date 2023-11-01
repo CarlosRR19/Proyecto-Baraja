@@ -94,16 +94,16 @@ export class Partida {
   }
 
   voltea(fila, columna) {
-    if (fila > (this._filas - 1) || fila == "") {
+    if (fila > this._filas - 1 || fila == "") {
       do {
         fila = prompt("Introduce un número de fila menor o diferente");
-      } while (fila > (this._filas - 1) || fila == "");
+      } while (fila > this._filas - 1 || fila == "");
     }
 
-    if (columna > (this._columnas - 1) || columna == "") {
+    if (columna > this._columnas - 1 || columna == "") {
       do {
         columna = prompt("Introduce un número de columna menor o diferente");
-      } while (columna > (this._columnas - 1) || columna == "");
+      } while (columna > this._columnas - 1 || columna == "");
     }
 
     this._cartaVolteada = this._mazo[fila][columna];
@@ -115,16 +115,16 @@ export class Partida {
   compruebaAcierto(fila, columna) {
     var acierto = false;
 
-    if (fila > (this._filas - 1) || fila == "") {
+    if (fila > this._filas - 1 || fila == "") {
       do {
         fila = prompt("Introduce un número de fila menor o diferente");
-      } while (fila > (this._filas - 1) || fila == "");
+      } while (fila > this._filas - 1 || fila == "");
     }
 
-    if (columna > (this._columnas - 1) || columna == "") {
+    if (columna > this._columnas - 1 || columna == "") {
       do {
         columna = prompt("Introduce un número de columna menor o diferente");
-      } while (columna > (this._columnas - 1) || columna == "");
+      } while (columna > this._columnas - 1 || columna == "");
     }
 
     if (
