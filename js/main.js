@@ -7,7 +7,6 @@ partida.selecciona();
 console.log(partida);
 partida.baraja();
 partida.reparte();
-console.log(partida);
 
 partida.getMazo();
 
